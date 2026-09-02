@@ -1,131 +1,130 @@
-# I build systems that ship from PRD to production.
+# Dhiman Manji
 
-AI-augmented PM + full-stack architect. I define scope, design architecture, and deliver working software and slide decks too if that's what you are looking for.
+## AI-native Solution Architect
 
----
+**Enterprise AI · Agentic Systems · Brownfield Modernization · .NET / Cloud**  
+**Business → Architecture → Engineering → Delivery**
 
-## Who I Am
+I design **enterprise AI systems around the model** — combining probabilistic intelligence with deterministic controls, human authority, integration boundaries, observability, and verification.
 
-**Associate Consultant & Software Architect @ CGI**  
-Product Manager · Solution Architect · Azure AI Engineer
+I am an **Associate Consultant at CGI** with 20+ years across enterprise software delivery, application architecture, modernization, and end-to-end solution implementation.
 
-I work at the intersection of product thinking and technical execution. I scope MVPs, design microservice architectures, and ship real systems, in enterprise consulting and pro bono product work.
+My current focus is the gap between an AI capability that works in a demo and an enterprise system that can be **integrated, governed, tested, operated, and trusted in production**.
 
-Currently leading **NFI Beneficiary Management System (CMDWS MVP)** as Product Manager & Solution Architect, a role-based platform digitizing neonatal case intake, document workflows, committee decisions, and donor-safe reporting for Neonates Foundation India.
-
-> I don't just write specs. I ship.
-
----
-
-## What I Build
-
-- **AI-integrated product systems** - scoping, architecture, and delivery end-to-end
-- **Microservice backends** - .NET 8, RabbitMQ, PostgreSQL, event-driven design
-- **Angular frontends** - role-based UX, workflow-driven interfaces
-- **Legacy modernization** - .NET Framework to .NET 8, refactor-to-cloud patterns
-- **PRD to backlog to build pipelines** - epics, data dictionaries, API interaction guides, UI blueprints
-- **Azure AI deployments** - App Services, Blob Storage, DevOps, Azure AI services
-- **Audit-first document workflows** - immutable records, traceability, KYC/medical data handling
+[**Architecture Portfolio →**](https://dhiman-ai-architect.lovable.app)  
+[**LinkedIn →**](https://www.linkedin.com/in/dmanji)
 
 ---
 
-## Pinned: What To Look At
+## Architecture Principles
 
-### [`NFI_CMDWS`](https://github.com/midhiman-dev/NFI_CMDWS) - Pro Bono PM · Product Manager / Solution Architect
-A real MVP I'm leading for a neonatal charity.
+**Enterprise fitment before AI novelty**  
+Start with the workflow, users, systems, controls, and constraints. Introduce AI only where it creates meaningful value.
 
-**Problem** -> Manual, paper-based beneficiary intake with no audit trail, no role separation, and no reporting for donors.  
-**Architecture** -> Angular -> Spring Boot -> MySQL + Azure Blob (DMS-independent, storage-agnostic)  
-**What I delivered** ->
-- Full PRD pack (v1.1) with annexures - locked MVP scope, workflows, roles, success metrics
-- DMS-independent architecture with immutable document handling and audit-first design
-- Data Dictionary v1.1 - reporting schema, process mapping, multilingual label scope
-- Client-ready backlog - epics, user stories, acceptance criteria
-- Developer API Interaction Guide v1.3
-- UI blueprint - role-based flows + screen-to-field mappings (V1.3)
-- Reporting & Dashboards module - KPI catalog, MIS templates, export specs
-- Azure hosting + security posture - cost-optimized deployment, private Blob for KYC/medical docs
-- Working UI prototype - demo-stable, committee/verification/installment/follow-up flows
+**Deterministic core, intelligent edge**  
+Keep calculations, validation, policy, workflow state, permissions, and consequential controls deterministic. Use AI for interpretation, generation, prioritization, explanation, and assistance.
 
-**Tradeoffs** -> Chose DMS-independence to avoid vendor lock-in and enable a POC-first validation approach before full build. Removed OTP login from MVP via formal change control to reduce scope risk.  
-**What's next** -> Full build execution against the backlog.
+**Human authority at consequential points**  
+Sensitive decisions, approvals, irreversible writes, and high-risk actions should remain reviewable and attributable.
+
+**Brownfield realism**  
+Assume existing APIs, legacy applications, imperfect data, security boundaries, hybrid infrastructure, and organizational constraints rather than designing only for greenfield environments.
+
+**Verification before expansion**  
+A smaller workflow with evidence is more valuable than a broad feature set that cannot be confidently tested or explained.
 
 ---
 
-### [`PromptSharp`](https://github.com/midhiman-dev/PromptSharp) - Prompt Engineering Toolkit
-Prompt-focused tooling and experiments.
+## Selected Engineering Evidence
 
-**Features**
-- Prompt optimization using OpenRouter models
-- Searchable model picker with free-model prioritization
-- Side-by-side prompt comparison for rough vs refined outputs
-- Local prompt history with export support
-- Configurable guardrails for toxicity, PII, hallucination, truthfulness, and logical checks
+### [CarbonCoach](https://github.com/midhiman-dev/CarbonCoach)
+**Bounded generative AI with a deterministic core**
 
----
+- Deterministic carbon calculations separated from generative explanation
+- Numeric Invention Guard to reject unsupported model-generated numbers
+- Privacy minimization, API validation, and deployment hardening
+- **286 automated tests** with approximately **94.79% statement coverage**
 
-### [`krishna-whispers`](https://github.com/midhiman-dev/krishna-whispers) - AI + Devotional Experience
-An AI-driven project centered around Krishna-inspired interactions.
+**Architecture signal:** AI can add value without becoming the system of record for deterministic facts.
 
-**Features**
-- Daily Bhagavad Gita sloka generation powered by Gemini
-- Reflection layer that turns each verse into a short guided takeaway
-- Social-ready copy generation for Facebook, Instagram, WhatsApp, and X
-- AI media prompts for creating matching devotional visuals and videos
-- Firebase-backed sign-in, history, and cross-device progress sync
+### [VoteReady India](https://github.com/midhiman-dev/VoteReady-India)
+**Grounded AI with source-trust and deterministic safety routing**
 
----
+- Controlled source registry and official-source-first retrieval
+- Deterministic routing for procedural, political, and unverifiable requests
+- Explicit cannot-verify states rather than fabricated certainty
+- **164-test regression suite**
 
-### [`the-naming-nook`](https://github.com/midhiman-dev/the-naming-nook) - Pet Naming Utility
-An AI-driven project focused on naming ideas, exploration, and generation of pet names.
+**Architecture signal:** trustworthy AI requires source control, routing, fallback behavior, and explicit handling of uncertainty — not prompting alone.
 
-**Features**
-- Guided wizard for species, temperament, and naming-theme based suggestions
-- Interactive AI chat for iterative naming, constraints, and follow-up prompts
-- Personalized pet-name generation powered by Google Gemini
-- Responsive, animation-led interface designed for a more playful discovery flow
+### [NFI CMDWS](https://github.com/midhiman-dev/NFI_CMDWS)
+**Role-aware workflow and human decision architecture**
 
----
+A public prototype/reference implementation exploring structured beneficiary-management workflows with role separation, document handling, traceability, workflow state, and human approval gates.
 
-## Certifications
+**Architecture signal:** enterprise architecture is often about workflow integrity, accountability, and information flow before it is about adding new technology.
 
-[![Generative AI Leader](https://img.shields.io/badge/Google-Generative%20AI%20Leader-4285F4?logo=google&logoColor=white)](https://cloud.google.com)
-[![GitHub Copilot](https://img.shields.io/badge/Microsoft-GitHub%20Copilot%20Certified-181717?logo=github&logoColor=white)](https://learn.microsoft.com)
-[![Azure AI Engineer Associate](https://img.shields.io/badge/Microsoft%20Certified-Azure%20AI%20Engineer%20Associate-0078D4?logo=microsoft-azure&logoColor=white)](https://learn.microsoft.com/en-us/users/manjidhiman-0193/credentials/bde1cccfaf65b93f)
-[![Google Cloud Digital Leader](https://img.shields.io/badge/Google%20Cloud-Digital%20Leader-4285F4?logo=google-cloud&logoColor=white)](https://www.credly.com/badges/f8091a7c-f054-4523-bc4c-a2c90224155c/linked_in_profile)
+### [AI Engineering Utilities](https://github.com/midhiman-dev/Utilities)
+**Reliability and developer-safety tooling around AI systems**
 
-| Certification | Issuer | Valid |
-|---|---|---|
-| Generative AI Leader | Google | Jan 2026 - Jan 2029 |
-| GitHub Copilot | Microsoft | Sep 2025 - Sep 2027 |
-| Azure AI Engineer Associate | Microsoft | Expired |
-| Cloud Digital Leader | Google | Mar 2025 - Mar 2028 |
+Includes:
+
+- **SecureLLMHarness** — a .NET 8 CLI for validating OpenAI-compatible endpoints with deterministic response checks, latency measurement, batch execution, and secret-safe diagnostics
+- **Redact Secrets** — local detection and masking of credentials, tokens, private keys, and other sensitive values before logs or text are shared
+
+**Architecture signal:** production AI engineering includes the reliability, diagnostic, privacy, and safety tooling surrounding the model.
 
 ---
 
-## Tech Stack
+## What I Am Building Toward
 
-| Layer | Tools |
-|---|---|
-| **Backend** | .NET 8, Microservices, RabbitMQ, PostgreSQL, Spring Boot |
-| **Frontend** | Angular, TypeScript |
-| **Cloud** | Microsoft Azure (AI, App Services, DevOps, Blob) |
-| **AI** | Azure AI Services, GitHub Copilot, Generative AI systems |
-| **PM** | PRD authoring, backlog management, data dictionaries, API specs, UI blueprints |
-| **Industries** | Healthcare, Utilities, Public Sector, Transportation, NGO/Social Impact |
+A coherent body of evidence around **AI-native enterprise architecture**, including:
 
----
+- AI-enabled enterprise workflows
+- Governed agentic systems
+- Retrieval, grounding, evaluation, and verification
+- Human-in-the-loop control
+- Safe enterprise-system access for AI agents
+- Brownfield modernization and legacy integration
+- AI-assisted software engineering
+- Observability, auditability, and operational controls
 
-## Industries & Impact
+The recurring questions behind this work are:
 
-```text
-Healthcare        ████████████░░░  Beneficiary systems, clinical workflows
-Utilities         ████████░░░░░░░  Enterprise modernization
-Public Sector     ██████░░░░░░░░░  Scalable government systems
-Transportation    ████░░░░░░░░░░░  End-to-end delivery
-Social Impact     ████████████░░░  NFI pro bono (active)
-```
+> Where should AI participate?  
+> What must remain deterministic?  
+> What authority should an agent receive?  
+> How do we verify the output?  
+> How does the system fit the enterprise estate around it?
 
 ---
 
-*Building scalable, user-first systems - end to end.*
+## Technology Context
+
+**Enterprise application architecture**  
+.NET Framework · .NET 8–10 · C# · ASP.NET Core · REST · GraphQL · RabbitMQ · SQL Server · PostgreSQL · Oracle · Angular · TypeScript
+
+**AI systems**  
+Generative AI · RAG / grounded generation · Agentic workflows · Provider abstraction · Evaluation and guardrails · Human-in-the-loop · AI-assisted engineering
+
+**Cloud & delivery**  
+Microsoft Azure · Google Cloud · Docker · GitHub · Azure DevOps · CI/CD · Cloud-native and hybrid delivery
+
+---
+
+## Credentials
+
+- **Microsoft Certified: AI Transformation Leader**
+- **Google Generative AI Leader**
+- **GitHub Copilot Certification**
+- **Google Cloud Digital Leader**
+
+Certifications provide foundations. The primary purpose of this profile is to provide **working evidence, architecture decisions, verification, and delivery depth**.
+
+---
+
+### Portfolio
+
+**https://dhiman-ai-architect.lovable.app**
+
+> **Reference solutions, not hackathon chatbots.**
